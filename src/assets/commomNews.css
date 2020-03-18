@@ -1,0 +1,47 @@
+.container-commom-news{
+    display: flex;
+}
+
+.container-commom-news .commom-news{
+    text-align: left;
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-commom-news .commom-news .new{
+    display: inline-flex;
+}
+
+.commom-news .updateDate{
+    text-align: end;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.commom-news .relate{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.commom-news ul{
+    margin-left: 10px;
+    list-style: none;
+}
+
+.commom-news ul > li{
+    color:#23527c;
+    text-transform: uppercase;
+}
+
+.commom-news ul > li:hover{
+    color: red;
+    background: none;
+    cursor: pointer;
+}
+.commom-news .row{
+    margin-left: 0;
+    margin-right: 0;
+}

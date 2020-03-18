@@ -1,0 +1,42 @@
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    border-top: 3px solid #c60000;
+    margin-top: 10px;
+    background: #fffce0;
+    height: 72px;
+    width: 1220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-footer{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container-menu-item{
+    display: flex;
+    justify-content: center;
+}
+
+.container-menu-item > li {
+    text-align: center;
+    list-style: none;
+    padding: 0 12px;
+    line-height: 22px;
+    background: #c60000;
+    border-radius: 0 0 5px 5px;
+    margin: 2px;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-menu-item > li:hover{
+    color: yellow;
+}

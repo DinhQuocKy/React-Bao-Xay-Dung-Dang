@@ -1,0 +1,141 @@
+.container-main-file {
+  display: flex;
+  justify-content: center;
+  width: 1220px;
+}
+
+.file-list-left {
+  width: 30%;
+}
+
+.main-file {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.danhmucvanban > h4 {
+  background-color: #c60000;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 2;
+}
+
+.danhmucvanban > p {
+  border-bottom: 1px solid #ccc;
+  color: #c60000;
+  display: block;
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 10px;
+  position: relative;
+  width: 100%;
+  text-align: justify;
+}
+
+.danhmucvanban > p:hover {
+  color: red;
+}
+
+.file-list-right {
+  width: 70%;
+}
+
+.container_vanban {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search_vanban {
+  height: 34px;
+  width: 100%;
+}
+
+.form_search {
+  display: flex;
+}
+
+.search > p {
+  margin-left: 20px;
+}
+
+.search > img {
+  margin-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search > img:hover {
+  border: 1px solid ;
+  background-color: gainsboro;
+}
+
+.search input {
+  margin-left: 80px;
+  padding: 6px 12px;
+  font-size: 14px;
+  width: 460px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.table_vanban {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form_table table {
+    margin-left: 20px;
+    width: 97.5%;
+}
+
+.form_table table,
+td, th{
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.form_table thead{
+    color: white;
+    background-color: #c60000;
+}
+
+.form_table .stt{
+    width: 68px;
+}
+
+.form_table .des{
+    width: 460px;
+}
+
+.form_table .kind{
+    width: 186px;
+}
+
+.form_table tbody .des{
+    padding-left: 10px;
+    text-align: initial;
+}
+
+.form_table tbody img:hover{
+    background-color: greenyellow;
+    border-radius: 4px;
+}
+
+.form_table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.form_table tbody tr:hover{
+  background-color: #eee;
+}
+
+.form_table thead tr{
+  line-height: 3;
+}
